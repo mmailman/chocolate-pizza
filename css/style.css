@@ -1,0 +1,48 @@
+body{
+  margin: 0 15% 0 15%;
+}
+
+header > div{
+  display: inline-block;
+}
+
+header {
+  border-bottom-style: double;
+  /*display:flex;*/
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h6 {
+  margin-top: 0;
+}
+
+p {
+  text-indent: 1.5em;
+}
+heading > div {
+  display: inline-block;
+}
+
+.print {
+  float:right;
+}
+
+.print h6 {
+  display: inline;
+}
+
+.social-media {
+  float:right;
+  /*justify-content: flex-end;*/
+}
+
+.big-pic {
+  width: 100%;
+}
+
+.cursive {
+  font-family: 'Yellowtail', cursive;
+}
