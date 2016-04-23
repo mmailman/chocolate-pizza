@@ -1,5 +1,10 @@
 body{
   margin: 0 15% 0 15%;
+  font-family:  Georgia, Times, serif;
+}
+
+main {
+  margin-bottom: 35px;
 }
 
 header > div{
@@ -8,35 +13,110 @@ header > div{
 
 header {
   border-bottom-style: double;
-  /*display:flex;*/
 }
 
 h1 {
+  margin-top: 0;
   margin-bottom: 0;
+  font-family: Helvetica sans-serif;
 }
 
-h6 {
+h5 {
   margin-top: 0;
+  margin-bottom: 12px;
+}
+
+header > div > p {
+  margin-top: 0;
+  color: #BEC7BD;
+  text-indent: 0;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+heading > div > p {
+  margin-top: 0;
+  color: #BEC7BD;
+  text-indent: 0;
+  font-weight: lighter;
+  font-size: 12px;
 }
 
 p {
   text-indent: 1.5em;
 }
+
 heading > div {
   display: inline-block;
 }
 
-.print {
-  float:right;
+form {
+  background-image: url('../imgs/list-bg.png');
+  box-shadow: 0px 5px 2px #888888;
+  display:flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+
 }
 
-.print h6 {
+ul {
+  list-style: none;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  color: #BEC7BD;
+  border-top-style: solid;
+  border-top-width: thin;
+  border-top-color: #BEC7BD;
+}
+
+footer > p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer > img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  display: inline-block;
+  color: white;
+  background-color: rgb(237, 86, 53);
+  font-family: Helevetica;
+  width: 15%;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 35px;
+}
+
+.heading-div {
+  margin-top: 20px;
+}
+
+.button {
+}
+
+.print {
+  float:right;
+  color: #BEC7BD;
+  margin-top: 33px;
+}
+
+.print p {
   display: inline;
+  text-indent: 0;
+  font-size: 12px;
 }
 
 .social-media {
+  margin-top: 27px;
   float:right;
-  /*justify-content: flex-end;*/
 }
 
 .big-pic {
@@ -45,4 +125,35 @@ heading > div {
 
 .cursive {
   font-family: 'Yellowtail', cursive;
+}
+
+.author-block {
+  display: flex;
+  border-top-style: double;
+  padding-top: 20px;
+}
+
+.author-block div{
+  display: inline-block;
+}
+
+.author-block p {
+  display: inline;
+  text-indent: 0;
+  font-size: smaller;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.small-logo {
+  /*Sorry Benton*/
+  margin-top: -16px;
+}
+
+.author-details {
+  margin-left: 13px;
 }
